@@ -3,12 +3,13 @@ font-family: "Lucida Console", monospace;
 }
 
 body {
-background-color: #e6e6fa; 
+background-color: #E6E6FA; 
 text-align: center;
+margin: 20px;
 }
 
 h1 {
-font-size: 6em;
+font-size: 5em;
 }
 
 h2 {
@@ -16,5 +17,5 @@ font-size: 3em;
 }
 
 p {
-font-size: 2em;
+font-size: 1em;
 }
