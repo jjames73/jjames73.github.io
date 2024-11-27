@@ -1,1 +1,33 @@
+body {
+    background-color: #ffffff;
+    color: #000000; 
+    font-family: "Lucida Console", monospace; 
+    margin: 20px; 
+    text-align: center; 
+}
+
+header {
+    background: linear-gradient(to bottom, #800080, #000000); 
+    color: #ffffff; 
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 15px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic; 
+}
 
