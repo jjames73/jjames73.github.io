@@ -11,6 +11,15 @@ img {
     height: auto;
 }
 
+ul {
+    width: 80%;
+    max-width: 800px; margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    order-radius: 8px;
+    text-align: left;
+   }
+
 header {
     background: linear-gradient(to bottom, #800080, #000000); 
     color: #ffffff; 
