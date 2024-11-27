@@ -6,6 +6,11 @@ body {
     text-align: center; 
 }
 
+img {
+    max-width: 50%;
+    height: auto;
+}
+
 header {
     background: linear-gradient(to bottom, #800080, #000000); 
     color: #ffffff; 
