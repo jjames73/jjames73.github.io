@@ -72,6 +72,7 @@ border: 2px solid black;
 border-radius: 8px;
 margin-right: 10px;
 transition: background-color 0.3s, color 0.3s; 
+font-weight: bold;
 }
 
 .headernav a:hover {
