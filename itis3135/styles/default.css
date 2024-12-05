@@ -20,7 +20,7 @@ ul {
    }
 
 header {
-    background: linear-gradient(to bottom, #800080, #000000); 
+    background: #000000; 
     color: #ffffff; 
     padding: 20px;
 }
@@ -54,4 +54,32 @@ figcaption {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
     box-sizing: border-box;
+}
+
+.headernav {
+ margin: 15px;
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+} 
+
+.headernav a {
+text-decoration: none;
+color: black;
+background-color: white;
+padding: 10px 20px;
+border: 2px solid black;
+border-radius: 8px;
+margin-right: 10px;
+transition: background-color 0.3s, color 0.3s; 
+font-weight: bold;
+}
+
+.headernav a:hover {
+background-color: black;
+color: white;
+}
+
+.footernav a {
+color: black;
 }
