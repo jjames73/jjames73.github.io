@@ -109,3 +109,33 @@ color: white;
 .footernav a {
 color: black;
 }
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6fa;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:first-child th {
+    background-color: #000;
+    color: white;
+}
