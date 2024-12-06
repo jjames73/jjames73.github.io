@@ -29,6 +29,10 @@ ul {
     text-align: left;
    }
 
+li {
+    margin: 10px 0;
+}
+
 header {
     background: #000000; 
     color: #ffffff; 
