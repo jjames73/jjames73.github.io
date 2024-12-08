@@ -33,7 +33,8 @@ ol {
     max-width: 800px;
     border-radius: 8px;
     text-align: left;
-	list-style-position: outside;
+list-style-position: outside;
+margin: 0 auto;
    }
 
 li {
