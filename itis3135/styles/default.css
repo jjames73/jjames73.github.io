@@ -21,14 +21,18 @@ img {
     height: auto;
 }
 
+ul, ol {
+	box-sizing: border-box;
+}
+
 ul {
-    width: 80%;
+	width: 80%;
     max-width: 800px;
     background-color: #f9f9f9;
     border-radius: 8px;
     padding: 10px;
     margin: 0 auto;
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
 ol {
