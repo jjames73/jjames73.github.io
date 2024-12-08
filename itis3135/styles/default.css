@@ -39,10 +39,6 @@ li {
     margin: 10px 0;
 }
 
-.tablelist {
-    text-align: center;
-}
-
 .tablelist li {
     display: inline-block;
     text-align: left;
@@ -137,14 +133,13 @@ footer a:visited, footer a:hover {
 }
 
 table {
-display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    unicode-bidi: isolate;
-    border-spacing: 2px;
-    border-color: gray;
+table-layout: auto;
+border-radius: 5px;
+background-color: black;
+padding: 10px;
+margin: 10px auto;
 }
+
 th, td {
 	border: 1px solid #ddd;
 	padding: 10px;
