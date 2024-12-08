@@ -26,12 +26,25 @@ ul {
     max-width: 800px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    text-align: left;
-   }
+    padding: 10px;
+    margin: 0 auto;
+    list-style-position: inside;
+}
 
 li {
     margin: 10px 0;
 }
+
+.tablelist {
+    text-align: center;
+}
+
+.tablelist li {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+
 
 header {
     background: #000000; 
