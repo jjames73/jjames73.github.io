@@ -161,7 +161,7 @@ th, td {
   height: 100vh;
   margin: 0;
   background-color: #FFFBCC;
-  color: #f5f6f7;
+  color: #00008B;
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
@@ -217,10 +217,15 @@ input[type="submit"] {
   height: 2em;
   font-size: 1.1rem;
   background-color: #3b3b4f;
-  border-color: white;
+  border-color: #00008B;
   min-width: 300px;
 }
 
 .inline{
   display: inline; 
+}
+
+button {
+	background-color: #00008B;
+	color: #ffffff;
 }
