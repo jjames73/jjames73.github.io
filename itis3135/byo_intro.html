@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaelynn James’s Jubilant Jaguar || ITIS 3135 || Forms</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+</head>
+<body id="byo_intro">
+    <header>
+       <div data-include="components/header.html"></div>
+    </header>
+    <main>
+       <h1>Forms</h1>
+    <h2>Please fill out this form to make your order request</h2>
+    <form method="post" action='#'>
+      <fieldset>
+        <label for="first-name">Enter Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="phone-number">Enter Phone Number: <input id="phone-number" name="phone-number" type="tel" size="10" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Are you a member of the Jubilant Jaguars? (required)</legend>
+        <label for="member-yes"><input id="member-yes" type="radio" name="member-type" class="inline" checked />Yes</label>
+        <label for="member-no"><input id="member-no" type="radio" name="member-type" class="inline" />No</label>
+      </fieldset>
+      <legend>Choose your product(s)</legend>
+      <fieldset>
+        <label for="meme-shirt">Meme Worthy Shirt ($20)<input id="meme-shirt" type="checkbow" name="product" /></label>
+        <label for="joke-mug">Punny Joke Mug ($20)<input id="joke-mug" type="checkbow" name="product" /></label>
+        <label for="bag">Gag Bag ($20)<input id="bag" type="checkbow" name="product" /></label>
+        <label for="stickers">Silly Stickers ($20)<input id="stickers" type="checkbow" name="product" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">School Fair</option>
+            <option value="2">Friend</option>
+            <option value="3">Social Media</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">If other...
+          <textarea id="other" name="other" rows="3" cols="10" placeholder="Oh I found about about yall at..."></textarea>
+        </label>
+      </fieldset>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.js"></script>
+</body>
+</html>
