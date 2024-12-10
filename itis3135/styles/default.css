@@ -164,6 +164,11 @@ th, td {
   color: #00008B;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  text-align: left;
+}
+
+#formpage h2 {
+  text-align: center;
 }
 
 
@@ -195,7 +200,7 @@ textarea, select
   min-height: 1.3em;
 }
 
-input, textarea {
+input, textarea, select {
   background-color: #b5e2ff;
   border: 1px solid #0a0a23;
   color: #0a0a23;
