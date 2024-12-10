@@ -10,6 +10,10 @@ header {
     background-color: #FFFBCC;
 }
 
+#intropage-center {
+text-align: center;
+}
+
 footer {
 text-align: center;
 }
