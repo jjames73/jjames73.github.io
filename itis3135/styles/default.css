@@ -166,11 +166,11 @@ th, td {
   font-size: 16px;
 }
 
-#form-main{
+.form-main{
 text-align: left;
 }
 
-#form-section {
+.form-section {
   text-align: center;
 }
 
