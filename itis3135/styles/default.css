@@ -221,10 +221,6 @@ input[type="submit"] {
   min-width: 300px;
 }
 
-.inline{
-  display: inline; 
-}
-
 button {
 	background-color: #0a0a23;
 	color: #ffffff;
