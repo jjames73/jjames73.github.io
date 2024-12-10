@@ -10,6 +10,14 @@ header {
     background-color: #FFFBCC;
 }
 
+footer {
+text-align: center;
+}
+
+.default-center{
+text-align: center;
+}
+
 img {
     max-width: 50%;
     height: auto;
