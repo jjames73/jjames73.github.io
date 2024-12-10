@@ -172,17 +172,12 @@ form {
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
+  padding: 1rem;
+  border: 3px solid #3b3b4f;
 }
 
 label {
