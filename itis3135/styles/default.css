@@ -110,10 +110,10 @@ justify-content: center;
 
 .headernav a {
 text-decoration: none;
-color: black;
+color: #0a0a23;
 background-color: white;
 padding: 10px 20px;
-border: 2px solid black;
+border: 2px solid #0a0a23;;
 border-radius: 8px;
 margin-right: 10px;
 transition: background-color 0.3s, color 0.3s; 
@@ -126,11 +126,11 @@ color: white;
 }
 
 .footernav a {
-color: black;
+color: #0a0a23;;
 }
 
 footer a:visited, footer a:hover {
-	color: black;
+	color: #0a0a23;;
 	text-decoration: none;
 }
 
@@ -199,8 +199,8 @@ select {
 }
 
 input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
+  background-color: #b5e2ff;
+  border: 1px solid #0a0a23;;
   color: #ffffff;
 }
 
@@ -217,7 +217,7 @@ input[type="submit"] {
   height: 2em;
   font-size: 1.1rem;
   background-color: #3b3b4f;
-  border-color: #00008B;
+  border-color: #0a0a23;;
   min-width: 300px;
 }
 
@@ -226,6 +226,6 @@ input[type="submit"] {
 }
 
 button {
-	background-color: #00008B;
+	background-color: #0a0a23;;
 	color: #ffffff;
 }
