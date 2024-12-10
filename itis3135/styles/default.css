@@ -186,7 +186,7 @@ fieldset:last-of-type {
 }
 
 label {
-  display: block;
+  display: inline-block;
   margin: 0.5rem 0;
 }
 
