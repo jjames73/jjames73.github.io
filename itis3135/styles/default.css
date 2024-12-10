@@ -172,7 +172,6 @@ form {
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
-  padding-bottom: 1em;
 }
 
 fieldset {
@@ -181,16 +180,19 @@ fieldset {
 }
 
 label {
-  display: inline-block;
+  display: block;
   margin: 0.5rem 0;
 }
 
-input,
-textarea,
-select {
+#phone-number {
+  width: 50%;
+}
+
+textarea, select
+{
   margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
+  width: 50%;
+  min-height: 1.3em;
 }
 
 input, textarea {
@@ -198,6 +200,11 @@ input, textarea {
   border: 1px solid #0a0a23;
   color: #0a0a23;
 }
+
+#other, #referrer {
+  display: block;
+}
+
 
 .inline {
   width: unset;
