@@ -11,15 +11,17 @@ header {
 }
 
 #intropage-center {
-text-align: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%; /* Adjust width as necessary */
 }
 
 footer {
-text-align: center;
+    text-align: center;
 }
 
-.default-center{
-text-align: center;
+.default-center {
+    text-align: center;
 }
 
 img {
@@ -38,16 +40,17 @@ ul {
     max-width: 800px;
     border-radius: 8px;
     text-align: left;
-   }
+    margin: 0 auto; /* Center ul elements */
+}
 
 ol {
     width: 80%;
     max-width: 800px;
     border-radius: 8px;
     text-align: left;
-list-style-position: outside;
-margin: 0 auto;
-   }
+    list-style-position: outside;
+    margin: 0 auto; /* Center ol elements */
+}
 
 li {
     margin: 10px 0;
@@ -58,7 +61,6 @@ li {
     text-align: left;
     width: 100%;
 }
-
 
 header {
     background: #000000; 
@@ -71,7 +73,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 p {
@@ -114,136 +116,134 @@ figcaption {
 }
 
 .headernav {
- margin: 15px;
- display: flex;
- flex-wrap: wrap;
-justify-content: center;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 } 
 
 .headernav a {
-text-decoration: none;
-color: #0a0a23;
-background-color: white;
-padding: 10px 20px;
-border: 2px solid #0a0a23;
-border-radius: 8px;
-margin-right: 10px;
-transition: background-color 0.3s, color 0.3s; 
-font-weight: bold;
+    text-decoration: none;
+    color: #0a0a23;
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid #0a0a23;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+    font-weight: bold;
 }
 
 .headernav a:hover {
-background-color: black;
-color: white;
+    background-color: black;
+    color: white;
 }
 
 .footernav a {
-color: #0a0a23;
+    color: #0a0a23;
 }
 
 footer a:visited, footer a:hover {
-	color: #0a0a23;
-	text-decoration: none;
+    color: #0a0a23;
+    text-decoration: none;
 }
 
 table {
-table-layout: auto;
-border-radius: 5px;
-padding: 10px;
-margin: 10px auto;
+    table-layout: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
 }
 
 th, td {
-	border: 1px solid #ddd;
-	padding: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 .tabletop {
-	background-color: #d8bfd8;
+    background-color: #d8bfd8;
 }
 
 .tablebottom {
-	background-color: #cccccc;
+    background-color: #cccccc;
 }
 
-/*FORM DETAILS */
+/* FORM DETAILS */
 
 #formpage {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #FFFBCC;
-  color: #00008B;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFBCC;
+    color: #00008B;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
-.form-main{
-text-align: left;
+.form-main {
+    text-align: left;
 }
 
 #form-section {
-text-align: center;
-margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 fieldset {
-  padding: 1rem;
-  border: 3px solid #3b3b4f;
+    padding: 1rem;
+    border: 3px solid #3b3b4f;
 }
 
 label {
-  display: block;
-  margin: 0.5rem 0;
+    display: block;
+    margin: 0.5rem 0;
 }
 
 #phone-number {
-  width: 50%;
+    width: 50%;
 }
 
-textarea, select
-{
-  margin: 10px 0 0 0;
-  width: 50%;
-  min-height: 1.3em;
+textarea, select {
+    margin: 10px 0 0 0;
+    width: 50%;
+    min-height: 1.3em;
 }
 
 input, textarea, select {
-  background-color: #b5e2ff;
-  border: 1px solid #0a0a23;
-  color: #0a0a23;
+    background-color: #b5e2ff;
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
 }
 
 #other, #referrer {
-  display: block;
+    display: block;
 }
 
-
 .inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: #0a0a23;
-  min-width: 300px;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: #0a0a23;
+    min-width: 300px;
 }
 
 button {
-	background-color: #0a0a23;
-	color: #ffffff;
+    background-color: #0a0a23;
+    color: #ffffff;
 }
