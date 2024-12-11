@@ -1,0 +1,297 @@
+/*site main color/font*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CAF0F8;
+    overflow-x: hidden;
+}
+
+/* Centered Header*/
+header {
+    text-align: center;
+    padding: 20px 65px;
+    background-color: #90E0EF;
+    color: black;
+    width: 100%;
+}
+
+/* Side Navigation Bar Styles */
+.sidenav {
+    height: 100vh;
+    width: 200px;
+    background-color: #00B4D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: 1;
+}
+
+.nav-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+/* Nav effects*/
+.sidenav a {
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #575757;
+}
+
+.sidenav a.active {
+    background-color: white;
+    color: #333;
+}
+
+/* Main*/
+.main {
+    margin-left: 220px;
+    padding: 0 20px;
+}
+
+
+.text-content {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Gallery organized*/
+.gallery-container {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    /*max-height: calc(50% / 2 * 2);*/
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .gallery img {
+        height: auto;
+        max-width: 80%; 
+        max-height: 80%;
+    }
+}
+
+/* Gallery buttons*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    user-select: none;
+    transition: background-color 0.3s;
+    z-index: 2;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* List/textbox Styles */
+.additional-content p {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.textbox {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0px auto 30px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.bullet-list {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 80%;
+    list-style-type: disc;
+}
+
+.bullet-list li {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Caption styles */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Styles */
+#formpage {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFFBCC;
+    color: #00008B;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form-main {
+    text-align: left;
+}
+
+#form-section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 1rem;
+    border: 3px solid #3b3b4f;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#phone-number {
+    width: 50%;
+}
+
+textarea, select {
+    margin: 10px 0 0 0;
+    width: 50%;
+    min-height: 1.3em;
+}
+
+input, textarea, select {
+    background-color: #b5e2ff;
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+}
+
+#other, #referrer {
+    display: block;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: #0a0a23;
+    min-width: 300px;
+}
+
+button {
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+
