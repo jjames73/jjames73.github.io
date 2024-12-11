@@ -9,11 +9,16 @@ body {
 
 /* Centered Header*/
 header {
+    font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light", Copperplate, "Balthazar";
     text-align: center;
     padding: 20px 65px;
     background-color: #90E0EF;
     color: black;
     width: 100%;
+}
+
+h1 {
+    font-size: 54px;
 }
 
 /* Side Navigation Bar Styles */
