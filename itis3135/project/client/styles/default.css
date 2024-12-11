@@ -69,6 +69,11 @@ h1 {
     padding: 0 20px;
 }
 
+.main img {
+    width: 33%;
+    height: auto;
+}
+
 
 .text-content {
     text-align: center;
