@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     function showCaption(src, text) {
         document.getElementById('caption-image').src = src;
         document.getElementById('caption-text').innerText = text;
-        document.getElementById('myCaption').style.display = 'block';
+        document.getElementById('my-caption').style.display = 'block';
     }
 
     // Function to hide caption
     function hideCaption() {
-        document.getElementById('myCaption').style.display = 'none';
+        document.getElementById('my-caption').style.display = 'none';
     }
 
     // Close caption when user clicks outside of it
     window.onclick = function(event) {
-        if (event.target === document.getElementById('myCaption')) {
+        if (event.target === document.getElementById('my-caption')) {
             hideCaption();
         }
     };
