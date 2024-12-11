@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close caption when user clicks outside of it
     window.onclick = function(event) {
-        if (event.target == document.getElementById('myCaption')) {
+        if (event.target === document.getElementById('myCaption')) {
             hideCaption();
         }
     };
