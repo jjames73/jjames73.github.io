@@ -28,6 +28,7 @@ h1 {
 footer {
     text-align: center; 
     margin-top: 20px;
+    margin-left: 30px;
 } 
 
 footer a 
@@ -37,7 +38,8 @@ footer a
 
 footer img {
     width: 30px;
-    height: auto; vertical-align: middle; 
+    height: auto;
+    vertical-align: middle; 
 }
 
 /* Side Navigation Bar Styles */
