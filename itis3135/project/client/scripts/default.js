@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize the slideshow
     showSlides(slideIndex);
-    window.changeSlide = changeSlide; // Make changeSlide accessible in the global scope
+    window.changeSlide = changeSlide; 
 });
 
 // EVERYTHING ABOVE IS SLIDES
@@ -50,4 +50,4 @@ window.onclick = function(event) {
     if (event.target == document.getElementById('myCaption')) {
         hideCaption();
     }
-}
+};
