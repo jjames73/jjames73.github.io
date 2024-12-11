@@ -31,25 +31,23 @@ document.addEventListener('DOMContentLoaded', function() {
     window.changeSlide = changeSlide; // Make changeSlide accessible in the global scope
 });
 
-//EVERYTHING ABOVE IS SLIDES
+// EVERYTHING ABOVE IS SLIDES
 
-//EVERYTHING BELOW IS THE CAPTIONS
+// EVERYTHING BELOW IS THE CAPTIONS
 
-function showModal(src, text) {
-    document.getElementById('modal-image').src = src;
-    document.getElementById('modal-text').innerText = text;
-    document.getElementById('myModal').style.display = 'block';
+function showCaption(src, text) {
+    document.getElementById('caption-image').src = src;
+    document.getElementById('caption-text').innerText = text;
+    document.getElementById('myCaption').style.display = 'block';
 }
 
-function hideModal() {
-    document.getElementById('myModal').style.display = 'none';
+function hideCaption() {
+    document.getElementById('myCaption').style.display = 'none';
 }
 
-// Close the modal when the user clicks anywhere outside of it
+// Close the caption when the user clicks anywhere outside of it
 window.onclick = function(event) {
-    if (event.target == document.getElementById('myModal')) {
-        hideModal();
+    if (event.target == document.getElementById('myCaption')) {
+        hideCaption();
     }
 }
-
-
