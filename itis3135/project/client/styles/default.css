@@ -65,13 +65,16 @@ h1 {
 
 /* Main*/
 .main {
+    align-text: center;
     margin-left: 220px;
     padding: 0 20px;
 }
 
 .main img {
-    width: 33%;
-    height: auto;
+ width: 33%;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
