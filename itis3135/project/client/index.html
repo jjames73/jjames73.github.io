@@ -12,11 +12,11 @@
         <h1>Chillycrab's Portfolio</h1>
     </header>
     <section class="sidenav">
-        <img src="path/to/your/logo.png" alt="Logo" class="nav-logo">
-        <a href="page1.html" class="nav-link" id="link1">Gallery</a>
-        <a href="page2.html" class="nav-link" id="link2">Projects</a>
-        <a href="page3.html" class="nav-link" id="link3">Commission</a>
-        <a href="page3.html" class="nav-link" id="link3">Contact</a>
+        <img src="images/chillylogo.jpg" alt="Logo" class="nav-logo">
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="commissions.html" class="nav-link"">Commission</a>
+        <a href="contact.html" class="nav-link">Contact</a>
     </section>
     <div class="main">
         <!-- Text -->
@@ -25,7 +25,7 @@
             <h3>Welcome to my portfolio</h3>
         </section>
         <p>Click my picture...</p>
-        <img src="images/Untitled_Artwork.jpg" alt="chilly">
+        <img src="images/Untitled_Artwork.jpg" alt="chilly" id="chillyhome">
         <section class="additional-content textbox">
             <!-- (On Click) Just showing you an easier way to get a better view of my art and maybe even a description-->
             <p>Hello my  name is Chillycrab and welcome to my Portfolio. Where you will be able to see...</p>
@@ -36,21 +36,13 @@
                 <li>A way to contact me if your interested in a commission or partnering up</li>
             </ul>
           <p>I am a huge fan of anime and game art so most of my art is inspired by it. </p>
-            <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1" onclick="showCaption(this.src, 'This is Image 1. It shows a funny animal meme.')">
+            <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1">
         </section>
         <section class="additional-content textbox">
             <p>Already interested from this sneak peak? Then find me on: </p><br>
             <a href="https://www.example.com"> <img src="https://www.example.com/image.jpg" alt="Description of Image"> </a>
             <a href="https://www.example.com"> <img src="https://www.example.com/image.jpg" alt="Description of Image"> </a>
         </section>
-    </div>
-    <!-- Caption-->
-    <div id="myCaption" class="caption">
-        <div class="caption-content">
-            <span class="close" onclick="hideCaption()">&times;</span>
-            <img id="caption-image" src="" alt="Caption Image" style="width: 100%; height: auto; margin-bottom: 20px;">
-            <p id="caption-text"></p>
-        </div>
     </div>
     <script src="scripts/default.js"></script>
 </body>
