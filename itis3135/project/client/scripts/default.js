@@ -13,21 +13,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close caption when user clicks outside of it
     window.onclick = function(event) {
-        if (event.target === document.getElementById('myCaption')) {
+        if (event.target == document.getElementById('myCaption')) {
             hideCaption();
         }
     };
 
-    // Add event listeners to images with class "clickable-image"
+    //tag pictures with clickable image to give them a caption
     const images = document.querySelectorAll('.clickable-image');
-    images.forEach(img => {
+    images.forEach(function(img) {
         img.addEventListener('click', function() {
             const captionText = this.getAttribute('data-caption');
             showCaption(this.src, captionText);
         });
     });
 
-    // Add event listener to close button
+    //The ability for x to close/hide caption
     document.querySelector('.close').addEventListener('click', hideCaption);
 });
-
