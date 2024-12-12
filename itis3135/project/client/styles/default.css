@@ -121,6 +121,19 @@ footer img {
     color: #333;
 }
 
+/*picture layout*/
+.pic-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.pic-layout img {
+    width: 100%;
+    height: auto;
+}
+
+
 /* Gallery organized*/
 .gallery-container {
     position: relative;
