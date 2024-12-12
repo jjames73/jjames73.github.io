@@ -23,36 +23,34 @@
             <h2>Art Gallery</h2>
             <h3>An overview of polished work and sketches</h3><br>
         </section>
-    <div class="main">
-        
         <section class="text-content">
             <h3>Polished Collection</h3>
         </section>
         <!-- Gallery content section -->
         <div class="gallery-container"> 
-            <button class="prev" onclick="changeSlide(-1)">&#10094;</button> 
+            <button class="prev">&#10094;</button> 
             <div class="gallery">
                 <!-- Placeholders for 12 images initially with onclick event for each image -->
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1" onclick="showModal(this.src, 'This is Image 1. It shows a funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 2" onclick="showModal(this.src, 'This is Image 2. It is a humorous comic.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 3" onclick="showModal(this.src, 'This is Image 3. It features a hilarious dog expression.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 4" onclick="showModal(this.src, 'This is Image 4. It depicts a cat in a funny pose.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 5" onclick="showModal(this.src, 'This is Image 5. Another example of funny animal behavior.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 6" onclick="showModal(this.src, 'This is Image 6. A clever and amusing caption.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 7" onclick="showModal(this.src, 'This is Image 7. This dog surely knows how to make us laugh.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 8" onclick="showModal(this.src, 'This is Image 8. Cats and their endless antics.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 9" onclick="showModal(this.src, 'This is Image 9. Another funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 10" onclick="showModal(this.src, 'This is Image 10. It’s a funny cat photo.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 11" onclick="showModal(this.src, 'This is Image 11. A hilarious dog meme.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 12" onclick="showModal(this.src, 'This is Image 12. Cats being cats.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 13" onclick="showModal(this.src, 'This is Image 13. Another funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 14" onclick="showModal(this.src, 'This is Image 14. A humorous comic strip.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 15" onclick="showModal(this.src, 'This is Image 15. An adorable dog photo.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 16" onclick="showModal(this.src, 'This is Image 16. A cat doing funny things.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 17" onclick="showModal(this.src, 'This is Image 17. Another classic animal meme.')">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1" class="clickable-image" data-caption="This is Image 1. It shows a funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 2" class="clickable-image" data-caption="This is Image 2. It is a humorous comic.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 3" class="clickable-image" data-caption="This is Image 3. It features a hilarious dog expression.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 4" class="clickable-image" data-caption="This is Image 4. It depicts a cat in a funny pose.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 5" class="clickable-image" data-caption="This is Image 5. Another example of funny animal behavior.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 6" class="clickable-image" data-caption="This is Image 6. A clever and amusing caption.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 7" class="clickable-image" data-caption="This is Image 7. This dog surely knows how to make us laugh.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 8" class="clickable-image" data-caption="This is Image 8. Cats and their endless antics.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 9" class="clickable-image" data-caption="This is Image 9. Another funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 10" class="clickable-image" data-caption="This is Image 10. It’s a funny cat photo.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 11" class="clickable-image" data-caption="This is Image 11. A hilarious dog meme.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 12" class="clickable-image" data-caption="This is Image 12. Cats being cats.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 13" class="clickable-image" data-caption="This is Image 13. Another funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 14" class="clickable-image" data-caption="This is Image 14. A humorous comic strip.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 15" class="clickable-image" data-caption="This is Image 15. An adorable dog photo.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 16" class="clickable-image" data-caption="This is Image 16. A cat doing funny things.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 17" class="clickable-image" data-caption="This is Image 17. Another classic animal meme.">
                 <!-- Add more images as needed -->
             </div> 
-            <button class="next" onclick="changeSlide(1)">&#10095;</button> 
+            <button class="next">&#10095;</button> 
         </div>
         <!-- New content below the gallery -->
         <section class="additional-content textbox">
@@ -61,40 +59,40 @@
         </section>
 
         <div class="gallery-container"> 
-            <button class="prev" onclick="changeSlide(-1)">&#10094;</button> 
+            <button class="prev">&#10094;</button> 
             <div class="gallery">
                 <!-- Placeholders for 12 images initially with onclick event for each image -->
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1" onclick="showModal(this.src, 'This is Image 1. It shows a funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 2" onclick="showModal(this.src, 'This is Image 2. It is a humorous comic.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 3" onclick="showModal(this.src, 'This is Image 3. It features a hilarious dog expression.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 4" onclick="showModal(this.src, 'This is Image 4. It depicts a cat in a funny pose.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 5" onclick="showModal(this.src, 'This is Image 5. Another example of funny animal behavior.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 6" onclick="showModal(this.src, 'This is Image 6. A clever and amusing caption.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 7" onclick="showModal(this.src, 'This is Image 7. This dog surely knows how to make us laugh.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 8" onclick="showModal(this.src, 'This is Image 8. Cats and their endless antics.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 9" onclick="showModal(this.src, 'This is Image 9. Another funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 10" onclick="showModal(this.src, 'This is Image 10. It’s a funny cat photo.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 11" onclick="showModal(this.src, 'This is Image 11. A hilarious dog meme.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 12" onclick="showModal(this.src, 'This is Image 12. Cats being cats.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 13" onclick="showModal(this.src, 'This is Image 13. Another funny animal meme.')">
-                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 14" onclick="showModal(this.src, 'This is Image 14. A humorous comic strip.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 15" onclick="showModal(this.src, 'This is Image 15. An adorable dog photo.')">
-                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 16" onclick="showModal(this.src, 'This is Image 16. A cat doing funny things.')">
-                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 17" onclick="showModal(this.src, 'This is Image 17. Another classic animal meme.')">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 1" class="clickable-image" data-caption="This is Image 1. It shows a funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 2" class="clickable-image" data-caption="This is Image 2. It is a humorous comic.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 3" class="clickable-image" data-caption="This is Image 3. It features a hilarious dog expression.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 4" class="clickable-image" data-caption="This is Image 4. It depicts a cat in a funny pose.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 5" class="clickable-image" data-caption="This is Image 5. Another example of funny animal behavior.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 6" class="clickable-image" data-caption="This is Image 6. A clever and amusing caption.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 7" class="clickable-image" data-caption="This is Image 7. This dog surely knows how to make us laugh.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 8" class="clickable-image" data-caption="This is Image 8. Cats and their endless antics.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 9" class="clickable-image[_{{{CITATION{{{_1{](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md)
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 9" class="clickable-image" data-caption="This is Image 9. Another funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 10" class="clickable-image" data-caption="This is Image 10. It’s a funny cat photo.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 11" class="clickable-image" data-caption="This is Image 11. A hilarious dog meme.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 12" class="clickable-image" data-caption="This is Image 12. Cats being cats.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 13" class="clickable-image" data-caption="This is Image 13. Another funny animal meme.">
+                <img src="https://i.imgflip.com/20ovz5.jpg" alt="Image 14" class="clickable-image" data-caption="This is Image 14. A humorous comic strip.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024047/85169233/6.jpg" alt="Image 15" class="clickable-image" data-caption="This is Image 15. An adorable dog photo.">
+                <img src="https://cdn.ebaumsworld.com/2016/10/19/024024/85169231/8.jpg" alt="Image 16" class="clickable-image" data-caption="This is Image 16. A cat doing funny things.">
+                <img src="https://thefunnybeaver.com/wp-content/uploads/2021/05/animalmemes-12-e1621859199560.jpeg" alt="Image 17" class="clickable-image" data-caption="This is Image 17. Another classic animal meme.">
                 <!-- Add more images as needed -->
             </div> 
             <button class="next" onclick="changeSlide(1)">&#10095;</button> 
         </div>
-      
     </div>
-    <!-- Caption-->
-    <div id="my-caption" class="caption">
-    <div class="caption-content">
-        <span class="close">&times;</span>
-        <img id="caption-image" src="nodate.lm" alt="Caption Image">
-        <p id="caption-text" class="caption-text"></p>
+    <!-- Caption -->
+    <div id="myCaption" class="caption">
+        <div class="caption-content">
+            <span class="close">&times;</span>
+            <img id="caption-image" src="nodate.lm" alt="Caption Image">
+            <p id="caption-text" class="caption-text"></p>
+        </div>
     </div>
-</div>
     <script src="scripts/default.js"></script>
 </body>
 <footer>
