@@ -133,6 +133,12 @@ footer img {
     height: auto;
 }
 
+.com-pic {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
 
 /* Gallery organized*/
 .gallery-container {
