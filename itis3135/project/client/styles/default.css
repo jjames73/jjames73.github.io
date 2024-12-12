@@ -301,15 +301,6 @@ footer img {
 
 
 /* Form Styles */
-#form-main {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: #FFFBCC;
-    color: #00008B;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}
 
 .form-main {
     align-text: center;
