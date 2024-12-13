@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         output += `<p><strong>Details:</strong> ${details}</p>`;
         output += `<p><em>Your request is being reviewed. Please wait 2-3 business days for us to contact you about your inquiry.</em></p>`;
 
+        document.getElementById('commissionform').style.display = 'none';
         document.getElementById('formoutput').innerHTML = output;
     });
 });
