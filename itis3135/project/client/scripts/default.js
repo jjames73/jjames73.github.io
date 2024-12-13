@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         changeSlide(1);
     });
 
-    // Form submission
+    // Form submission handling
     document.getElementById('commissionForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
 
