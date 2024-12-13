@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Form submission handling
-    document.getElementById('commissionForm').addEventListener('submit', function(event) {
+    document.getElementById('commissionform').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent form submission
 
         const name = document.getElementById('name').value;
@@ -95,6 +95,6 @@ document.addEventListener('DOMContentLoaded', function() {
         output += `<p><strong>Details:</strong> ${details}</p>`;
         output += `<p><em>Your request is being reviewed. Please wait 2-3 business days for us to contact you about your inquiry.</em></p>`;
 
-        document.getElementById('formOutput').innerHTML = output;
+        document.getElementById('formoutput').innerHTML = output;
     });
 });
